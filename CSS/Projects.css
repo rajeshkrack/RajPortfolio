@@ -17,7 +17,7 @@
 
 .projectDetails img {
     width: 40%; /* Reduced image width */
-    max-width: 10rem; /* Limit maximum width */
+    max-width: 12.5rem; /* Limit maximum width (200px) */
     margin-right: 20px; /* Added margin for spacing */
     border-radius: 10px; /* Optional: To match the styling of the text container */
 }
@@ -77,12 +77,12 @@
         align-items: center;
         width: 90%;
         background-color: #0B1E31;
-        border-radius: 20px;
+        border-radius: 1.25rem; /* 20px */
     }
 
     .projectDetails > img {
         width: 90%;
-        max-width: 300px; /* Adjust maximum width */
+        max-width: 18.75rem; /* 300px */
         margin-top: 10px;
         border-radius: 10px;
     }
