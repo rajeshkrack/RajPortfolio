@@ -17,7 +17,7 @@
 
 .projectDetails img {
     width: 40%; /* Reduced image width */
-    max-width: 12.5rem; /* Limit maximum width (200px) */
+    max-width: 2.5rem; /* Limit maximum width (200px) */
     margin-right: 20px; /* Added margin for spacing */
     border-radius: 10px; /* Optional: To match the styling of the text container */
 }
