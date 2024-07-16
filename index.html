@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajesh Kumbhakarn</title>
+    <link rel="shortcut icon" href="./logo.jpg" type="image/x-icon">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Internal CSS Files -->
+    <link rel="stylesheet" href="CSS/general.css">
+    <link rel="stylesheet" href="CSS/home.css">
+    <link rel="stylesheet" href="CSS/about.css">
+    <link rel="stylesheet" href="CSS/skills.css">
+    <link rel="stylesheet" href="CSS/projects.css">
+    <link rel="stylesheet" href="CSS/contact.css">
+    <link rel="stylesheet" href="CSS/footer.css">
+    <link rel="stylesheet" href="CSS/contactIcon.css">
+    <link rel="stylesheet" href="CSS/navigation.css">
+    <link rel="stylesheet" href="CSS/css.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- JavaScript Files -->
+    <script src="./JS/typeWriter.js"></script>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <a href=""><img src="./logo.jpg" alt=""></a>
+        <ul>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Achievements">Achievements</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+        <menu>
+            <hr id="hr1">
+            <hr id="hr2">
+            <hr id="hr3">
+        </menu>
+    </nav>
+    <div class="phoneMenu">
+        <h2><a href="#About" onclick="hideMenu();">About</a></h2>
+        <h2><a href="#Achievements" onclick="hideMenu();">Achievements</a></h2>
+        <h2><a href="#Skills" onclick="hideMenu();">Skills</a></h2>
+        <h2><a href="#Projects" onclick="hideMenu();">Projects</a></h2>
+        <h2><a href="#Contact" onclick="hideMenu();">Contact</a></h2>
+    </div>
+    <!-- Right Section -->
+    <section class="right">
+        <h2><a href="mailto:rajesh.iiitian25@gmail.com">rajesh.iiitian25@gmail.com</a></h2>
+        <hr>
+    </section>
+
+    <!-- Left Section -->
+    <section class="left socials">
+        <a href="https://www.linkedin.com/in/rajesh-kumbhakarn-6487aa228/" target="_blank"><img src="icons/linkedin.svg"
+                alt="LinkedIn"></a>
+        <a href="https://github.com/rajeshkrack" target="_blank"><img src="icons/github.svg" alt="GitHub"></a>
+        <a href="https://www.instagram.com/raj_k_25123/" target="_blank"><img src="icons/twitter.svg" alt="Twitter"></a>
+        <hr>
+    </section>
+
+    <div class="contactButton">
+        <div class="first">
+            <div class="second" style="--i:1">
+                <div class="third" style="--i:2">
+                    <div class="fourth" style="--i:3"></div>
+                </div>
+            </div>
+        </div>
+        <img src="./icons/contact.svg" alt="" class="contactIcon">
+        <img src="./icons/close.svg" alt="" class="closeIcon">
+    </div>
+
+    <div class="home">
+        <div class="content">
+            <h3>Hello, My name is</h3>
+            <div>
+                <h1>Rajesh Kumbhakarn</h1>
+            </div>
+            <h2>I'm a <span class="role" data-wait="1000"
+                    data-words='["Web Developer.","Competitive Programmer.","Passionate Learner."]'
+                    data-wait='3000'></span></h2>
+        </div>
+
+        <!-- For Background Animation -->
+        <div class="box1 box"></div>
+        <div class="box2 box"></div>
+        <div class="box3 box"></div>
+        <div class="box4 box"></div>
+        <div class="box5 box"></div>
+    </div>
+
+    <!-- About Page -->
+    <div class="about part" id="About">
+        <div class="title">
+            <h1>About Me</h1>
+            <hr>
+        </div>
+        <div class="wrap">
+            <div class="heading" data-aos="fade-right">
+                <h2>Rajesh Kumbhakarn</h2>
+                <h3>I love exploring new things!</h3>
+            </div>
+            <div class="aboutMe" data-aos="fade-right" data-aos-anchor=".heading">
+                <p>I am Rajesh Diliprao Kumbhakarn, a final-year student at IIIT Kalyani. As a web developer, I
+                    specialize in HTML5, CSS3, JavaScript, React.js, Node.js, Express.js, MongoDB, Redux, and Firebase.
+                    In addition, I am a proficient Python developer with a foundational understanding of machine
+                    learning concepts.</p>
+                <br>
+                <p>My technical achievements are notable. I was a member of the Google Developer Student Club at IIIT
+                    Kalyani and contributed to the open-source program Hacktoberfest 2022. I played a pivotal role in
+                    organizing the two-month-long hackathon, Winter of Code 3.0, conducted by the Google Developer
+                    Student Club. I was a finalist in Goldman Sachs' off-campus intern hiring program and secured the
+                    10th rank in DSA problem-solving at IIIT Kalyani on GeeksforGeeks.</p>
+                <br>
+                <p>Beyond my technical pursuits, I have been an active participant in extracurricular activities. I
+                    served as the Secretary of Grooovz, the dance club at IIIT Kalyani, and was an organizer of
+                    Anukriti, the institute's cultural fest. Additionally, I hold the position of Head Student
+                    Coordinator for the Training and Placement Cell at IIIT Kalyani.</p>
+                <p>I am an aspiring software developer striving to upskill myself every day.</p>
+            </div>
+            <a href="mailto:rajesh.iiitian25@gmail.com"><button>Let's Talk</button></a>
+            <div class="img" data-aos="fade-left">
+                <img src="pic.jpg" alt="Picture of Rajesh">
+            </div>
+        </div>
+    </div>
+
+    <!-- Skills Page -->
+    <div class="skills part" id="Skills">
+        <div class="title">
+            <h1>My Skills</h1>
+            <hr>
+
+        </div>
+        <div class="wrap">
+            <div class="skillItems">
+                <div class="item">
+                    <div class="itemContent">
+                        <div class="itemCircle">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg"
+                                alt="Python">
+                        </div>
+                        <p>Python</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="itemContent">
+                        <div class="itemCircle">
+                            <img src="./icons/cpp.svg" alt="C++ Language">
+                        </div>
+                        <p>C++ Language</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="itemContent">
+                        <div class="itemCircle">
+                            <img src="./icons/javascript.svg" alt="JavaScript">
+                        </div>
+                        <p>JavaScript</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- HTML5 -->
+                <div class="item">
+                    <div class="itemContent">
+                        <div class="itemCircle">
+                            <img src="./icons/html5.svg" alt="HTML5">
+                        </div>
+                        <p>HTML5</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- CSS3 -->
+                <div class="item">
+                    <div class="itemContent">
+                        <div class="itemCircle">
+                            <img src="./icons/css3.svg" alt="CSS3">
+                        </div>
+                        <p>CSS3</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="itemContent">
+                        <div class="itemCircle">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
+                                alt="React.js">
+                        </div>
+                        <p>React.js</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="itemContent">
+                        <div class="itemCircle">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg"
+                                alt="Node.js">
+                        </div>
+                        <p>Node.js</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="itemContent">
+                        <div class="itemCircle">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png"
+                                alt="Express.js">
+                        </div>
+                        <p>Express.js</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="itemContent">
+                        <div class="itemCircle">
+                            <img src="https://upload.wikimedia.org/wikipedia/en/4/45/MongoDB-Logo.svg" alt="MongoDB">
+                        </div>
+                        <p>MongoDB</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 70%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="item">
+                    <div class="itemContent">
+                        <div class="itemCircle">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/4/49/Redux.png" alt="Redux">
+                        </div>
+                        <p>Redux</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Firebase -->
+                <div class="item">
+                    <div class="itemContent">
+                        <div class="itemCircle">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/Firebase_Logo.svg"
+                                alt="Firebase">
+                        </div>
+                        <p>Firebase</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="itemContent">
+                        <div class="itemCircle">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg"
+                                alt="TensorFlow">
+                        </div>
+                        <p>TensorFlow</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects Section -->
+    <div class="projects part" id="Projects">
+        <div class="title">
+            <h1>Projects</h1>
+            <hr>
+        </div>
+        <div class="wrap">
+            <div class="projectDetails">
+                <img src="./images/image.png" class="projectImg healerImg" alt="Image of Project" data-aos="fade-right">
+                <div class="projectText healerText" data-aos="fade-left">
+                    <h2>Foodies Fiesta </h2>
+                    <div class="details">
+                        <span>Built a full stack restaurant app using MongoDB, Express.js, React.js (MERN stack),
+                            featuring responsive UI for menu browsing, order placement, and reservations, with optimized
+                            MongoDB schemas for menus, orders, and reservations.</span>
+                    </div>
+                    <p><span>React js</span>, <span>Express</span>, <span>MongoDB</span>, <span>Node js</span></p>
+                    <div class="platforms">
+                        <a href="https://github.com/rajeshkrack/Restaurant-Reservation" target="_blank"><img
+                                src="./icons/github-project.svg" alt="GitHub Repo"></a>
+                        <a href="https://restaurant-reservation-vlk2.onrender.com/" target="_blank"><img
+                                src="./icons/link.svg" alt="Project Link"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="projectDetails">
+                <img src="./images/guess-the-color.jpeg" class="projectImg colorGuessImg" alt="Image of Project"
+                    data-aos="fade-right">
+                <div class="projectText colorGuessText" data-aos="fade-left">
+                    <h2>BuzzTalk</h2>
+                    <div class="details">
+                        <span>Crafted a real-time chat application using the MERN stack, leveraging ReactJS for dynamic
+                            frontend interfaces, and Node.js with Express for robust server-side logic. Implemented
+                            infinite loading for a 30% boost in user experience, ensuring seamless content delivery and
+                            enhanced performance.</span>
+                    </div>
+                    <p><span>React js</span>, <span>Express</span>, <span>MongoDB</span>, <span>Node js</span>,
+                        <span>Socket IO</span>
+                    </p>
+                    <div class="platforms">
+                        <a href="https://github.com/rajeshkrack/My-Chat-App" target="_blank"><img
+                                src="./icons/github-project.svg" alt="GitHub Repo"></a>
+                        <a href="https://github.com/rajeshkrack/My-Chat-App" target="_blank"><img src="./icons/link.svg"
+                                alt="Project Link"></a>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+        </div>
+    </div>
+
+    <!-- Professional Projects Section -->
+    <div class="projects part" id="ProfessionalProjects">
+        <div class="title">
+            <h1>Professional Experience</h1>
+            <hr>
+        </div>
+        <div class="wrap">
+            <div class="projectDetails">
+                <img src="./images/image2.png" class="projectImg healerImg" alt="Image of Project"
+                    data-aos="fade-right">
+                <div class="projectText healerText" data-aos="fade-left">
+                    <h2>Placement Portal IIIT Kalyani</h2>
+                    <div class="details">
+                        <span>
+                            Implemented intuitive navigation features and interactive elements to enhance user
+                            engagement, actively participated in agile development processes including sprint planning,
+                            daily stand-ups, and retrospective meetings, and improved site responsiveness through
+                            performance testing, achieving a 20% reduction in page load times.</span>
+
+
+                    </div>
+                    <p><span>HTML5</span>, <span>CSS3</span>, <span>JavaScript</span></p>
+                    <div class="platforms">
+                        <a href="https://iiitkalyani.ac.in/placement/" target="_blank"><img src="./icons/link.svg"
+                                alt="Project Link"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Me -->
+    <div class="contact part" id="Contact">
+        <div class="title">
+            <h1>Contact</h1>
+            <hr>
+        </div>
+        <div class="wrap">
+
+            <!-- ******* Contact Info Starts ******* -->
+            <div class="contactInfo">
+                <h2>Feel free to contact me </h2>
+            </div>
+            <!-- ******* Contact Info Ends ******* -->
+
+            <!-- ******* Social Media Starts ******* -->
+            <div class="socialMedia">
+                <a href="https://www.linkedin.com/in/rajesh-kumbhakarn-6487aa228/" target="_blank">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/rajeshkrack" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.instagram.com/raj_k_25123/" target="_blank">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+            </div>
+            <!-- ******* Social Media Ends ******* -->
+
+            <!-- ******* Form Starts ******* -->
+            <form class="messageForm">
+                <div class="inputGroup halfWidth">
+                    <input type="text" name="" required="required">
+                    <label>Your Name</label>
+                </div>
+
+                <div class="inputGroup halfWidth">
+                    <input type="email" name="" required="required">
+                    <label>Email</label>
+                </div>
+
+                <div class="inputGroup fullWidth">
+                    <input type="text" name="" required="required">
+                    <label>Subject</label>
+                </div>
+
+                <div class="inputGroup fullWidth">
+                    <textarea required="required"></textarea>
+                    <label>Say Something</label>
+                </div>
+
+                <div class="inputGroup fullWidth">
+                    <button>Send Message</button>
+                </div>
+            </form>
+            <!-- ******* Form Ends ******* -->
+        </div>
+        <footer>
+            <span class="footer" data-wait="500"
+                data-words='["I love to code.","Creating a better version of myself!!","Searching for opportunities.","Learning..."]'></span>
+        </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="./JS/nav.js"></script>
+    <script src="./JS/menu.js"></script>
+    <script src="./JS/contactButton.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 150,
+            duration: 800
+        });
+        if (window.innerWidth <= 768) {
+            document.querySelector(".interest").removeAttribute("data-aos-anchor");
+            document.querySelector(".healerText").setAttribute("data-aos-anchor", ".healerImg")
+            document.querySelector(".colorGuessText").setAttribute("data-aos-anchor", ".colorGuessImg")
+        }
+    </script>
+</body>
+
+</html>

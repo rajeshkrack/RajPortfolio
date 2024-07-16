@@ -1,0 +1,12 @@
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inconsolata', monospace;
+    color: rgb(8, 8, 8);
+    font-size: 50px;
+    height: 20vh;
+}
+footer span{
+    border-right: 1px solid rgb(11, 11, 11);
+}

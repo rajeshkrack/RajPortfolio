@@ -1,0 +1,139 @@
+.projects .wrap {
+    flex-direction: column;
+}
+
+.projects hr {
+    margin: 0;
+    width: 70%;
+}
+
+.projectDetails {
+    width: 95%;
+    display: flex;
+    margin: 20px 0;
+    justify-content: space-between;
+    align-items: flex-start; /* Align items at the start */
+}
+
+.projectDetails img {
+    width: 40%; /* Reduced image width */
+    max-width: 200px; /* Limit maximum width */
+    margin-right: 20px; /* Added margin for spacing */
+    border-radius: 10px; /* Optional: To match the styling of the text container */
+}
+
+.projectText {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align content at the start */
+    align-items: flex-end; /* Ensures text is right-aligned */
+    max-width: 55%; /* Adjusted text width */
+}
+
+.projectText h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: right;
+    color: #BAC3CF;
+    margin: 0 0 5px 0;
+}
+
+.projectText p {
+    text-align: right;
+    color: #0e0e0e;
+    margin: 10px 0;
+    padding: 0 10px;
+}
+
+.projectText p span {
+    color: #090909;
+    font-family: 'Inconsolata', monospace;
+    padding-left: 20px;
+}
+
+.platforms img {
+    height: 2rem;
+}
+
+.platforms img:hover {
+    position: relative;
+    top: 2px;
+}
+
+.platforms a {
+    display: inline-block;
+}
+
+@media only screen and (max-width: 1024px) {
+    .projectDetails {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .projectDetails {
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        background-color: #0B1E31;
+        border-radius: 20px;
+    }
+
+    .projectDetails > img {
+        width: 90%;
+        max-width: 300px; /* Adjust maximum width */
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+
+    .projectText {
+        max-width: 100%; /* Take full width */
+        text-align: center; /* Center align text */
+    }
+
+    .projectText h2 {
+        font-size: 1.8rem; /* Increase font size */
+        text-align: center; /* Center align heading */
+        margin-bottom: 10px; /* Add margin */
+    }
+
+    .projectText p {
+        text-align: center; /* Center align paragraphs */
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .projectDetails {
+        width: 100%;
+    }
+
+    .projectDetails > img {
+        width: 100%; /* Full width image */
+        max-width: none; /* Remove maximum width limit */
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+
+    .projectText {
+        max-width: 100%; /* Take full width */
+        text-align: center; /* Center align text */
+    }
+
+    .projectText > h2 {
+        font-size: 1.5rem; /* Adjust font size */
+        text-align: center; /* Center align heading */
+        margin-bottom: 10px; /* Add margin */
+    }
+
+    .projectText > p {
+        text-align: center; /* Center align paragraphs */
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .projectText > p {
+        font-size: 0.8rem;
+        font-weight: 800;
+    }
+}

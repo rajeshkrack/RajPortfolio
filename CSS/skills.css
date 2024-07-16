@@ -1,0 +1,97 @@
+/* Reset and basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif; /* Adjust font-family as needed */
+    background-color: #f0f0f0; /* Background color */
+}
+
+.wrap {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+.skillItems {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Adjust spacing between items */
+    background-color: #fff; /* Background color for the section */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow for a subtle lift */
+}
+
+.item {
+    width: 200px; /* Adjust width as needed */
+    padding: 10px;
+    text-align: center;
+}
+
+.itemContent {
+    position: relative;
+}
+
+.itemCircle {
+    width: 80px; /* Size of the circle */
+    height: 80px;
+    border-radius: 50%; /* Rounded shape */
+    overflow: hidden;
+    margin: 0 auto 10px; /* Center the circle */
+}
+
+.itemCircle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio */
+}
+
+.progress {
+    height: 10px; /* Height of the progress bar */
+    background-color: #e0e0e0; /* Background color of the progress bar */
+    border-radius: 5px; /* Rounded corners */
+    overflow: hidden;
+    margin-top: 8px;
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: #4CAF50; /* Progress bar color */
+    width: 0; /* Start with no width */
+    transition: width 0.8s ease-in-out; /* Smooth transition animation */
+}
+
+/* Adjust progress bar widths based on percentage */
+.item:nth-child(1) .progress-bar {
+    width: 85%;
+}
+
+.item:nth-child(2) .progress-bar {
+    width: 75%;
+}
+
+.item:nth-child(3) .progress-bar {
+    width: 90%;
+}
+
+.item:nth-child(4) .progress-bar {
+    width: 80%;
+}
+
+.item:nth-child(5) .progress-bar {
+    width: 85%;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    .skillItems {
+        padding: 10px;
+    }
+    .item {
+        width: 100%; /* Full width on smaller screens */
+    }
+}
